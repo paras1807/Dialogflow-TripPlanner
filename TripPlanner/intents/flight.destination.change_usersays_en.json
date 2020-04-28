@@ -1,0 +1,44 @@
+[
+  {
+    "id": "9b634258-d854-49a6-aeae-e50ad173fe94",
+    "data": [
+      {
+        "text": "Change Destination",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "002b6692-26ed-48bf-bf9b-4f98e1cf88b1",
+    "data": [
+      {
+        "text": "Change my final place",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  },
+  {
+    "id": "fe33b401-4746-44c2-86f3-2ac3f55c95db",
+    "data": [
+      {
+        "text": "I want to change my destination to ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,57 @@
+{
+  "id": "0c8c99e1-63fa-4f4a-89e6-eca1e411bc87",
+  "name": "flight.destination.change",
+  "auto": true,
+  "contexts": [
+    "flight_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "flight-destination-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "flight_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d5b6aaf9-291f-42e5-b279-0e529ce4a67f",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

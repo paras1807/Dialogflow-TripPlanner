@@ -1,0 +1,113 @@
+{
+  "id": "4f2b30f1-93bb-479e-9629-b63fef8dc90e",
+  "parentId": "7fa1d59e-b393-433e-a59a-2324319cbcae",
+  "rootParentId": "7fa1d59e-b393-433e-a59a-2324319cbcae",
+  "name": "BookFlights - SeatSelection- yes - SelectedSeat",
+  "auto": true,
+  "contexts": [
+    "BookFlights-SeatSelection-yes-followup",
+    "flight_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights-SeatSelection-yes.BookFlights-SeatSelection-yes-custom",
+      "affectedContexts": [
+        {
+          "name": "flight_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "MakePayment-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "734cea6b-e1de-4fe2-8fd2-45d242aecfa0",
+          "required": true,
+          "dataType": "@selected_seat",
+          "name": "selected-seat",
+          "value": "$selected-seat",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "46a7aedc-d5b4-47f2-b5e2-4377097622bf",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.geo-city",
+          "isList": false
+        },
+        {
+          "id": "9c527c13-297c-459f-b2ec-5d7c61e18375",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.geo-city1",
+          "isList": false
+        },
+        {
+          "id": "ba075dc1-c2da-4d8f-8a38-c6b21713dba8",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.date",
+          "isList": false
+        },
+        {
+          "id": "9f9718cf-057f-4974-8c62-fc4bcc14956a",
+          "required": false,
+          "dataType": "@flight_class",
+          "name": "flight-class",
+          "value": "$flight-class",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.flight-class",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

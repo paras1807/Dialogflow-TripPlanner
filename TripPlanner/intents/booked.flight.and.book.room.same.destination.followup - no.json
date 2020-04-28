@@ -1,0 +1,42 @@
+{
+  "id": "41217c99-eb06-427c-9d0f-5f0665af5f22",
+  "parentId": "416aeda4-8b58-4aa5-9e14-db40db92805f",
+  "rootParentId": "416aeda4-8b58-4aa5-9e14-db40db92805f",
+  "name": "booked.flight.and.book.room.same.destination.followup - no",
+  "auto": true,
+  "contexts": [
+    "BookFlights-followupsBookRooms-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights.followupsBookRooms.BookFlights-followupsBookRooms-no",
+      "affectedContexts": [
+        {
+          "name": "BookFlights-followupsBookRooms-no-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Please provide destination for Room booking"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,75 @@
+{
+  "id": "b9e252ca-e5ae-49b7-a513-787a86ac9c5c",
+  "parentId": "416aeda4-8b58-4aa5-9e14-db40db92805f",
+  "rootParentId": "416aeda4-8b58-4aa5-9e14-db40db92805f",
+  "name": "booked.flight.and.book.room.same.destination.followup - yes",
+  "auto": true,
+  "contexts": [
+    "BookFlights-followupsBookRooms-followup",
+    "flight_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights.followupsBookRooms.BookFlights-followupsBookRooms-yes",
+      "affectedContexts": [
+        {
+          "name": "BookRooms-followup",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "flight_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "d311b7ee-0c7a-4199-99f7-9ff631ec5719",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.geo-city1",
+          "isList": false
+        },
+        {
+          "id": "0fa57fe6-5741-4cca-9b51-808e87eee637",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

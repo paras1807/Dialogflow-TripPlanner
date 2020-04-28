@@ -1,0 +1,41 @@
+{
+  "id": "f47784db-aebb-458f-b067-ec911101e450",
+  "name": "FlightBooked - Bookroom - no",
+  "auto": true,
+  "contexts": [
+    "flight_context",
+    "BookFlights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights-MakePayment.BookFlights-MakePayment-no",
+      "affectedContexts": [
+        {
+          "name": "flight_context",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "id": "90bab897-1081-431e-93e3-b80bb9f9f7b6",
+    "data": [
+      {
+        "text": "I want flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "next day",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "efe56915-e5a5-4f4f-9179-3bc994cad551",
+    "data": [
+      {
+        "text": "I want to fly ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "f164a7d3-ccd6-4cca-b02f-d36bd0f9cb99",
+    "data": [
+      {
+        "text": "today",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "id": "ebea349f-5616-4642-9334-37d50733dfef",
+    "data": [
+      {
+        "text": "locate me",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a03822a5-ab01-453b-bee0-a4b8e679af13",
+    "data": [
+      {
+        "text": "Use my location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

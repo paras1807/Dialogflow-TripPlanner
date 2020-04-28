@@ -1,0 +1,352 @@
+[
+  {
+    "id": "5a0e80e9-6510-43ab-b137-256a24ebc102",
+    "data": [
+      {
+        "text": "Book a flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "delhi",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "mumbai",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "this friday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "09d64311-c247-480f-a791-d414c173c377",
+    "data": [
+      {
+        "text": "Book a flight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "28e5757d-7b61-4ec1-b2de-d22ce0a2e259",
+    "data": [
+      {
+        "text": "Non-stop ",
+        "userDefined": false
+      },
+      {
+        "text": "economy",
+        "alias": "flight-class",
+        "meta": "@flight_class",
+        "userDefined": false
+      },
+      {
+        "text": " flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Gorakhpur",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "April 12 2019",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "99a9bcab-1c41-487e-bc9d-a0a98032c7e3",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "economy",
+        "alias": "flight-class",
+        "meta": "@flight_class",
+        "userDefined": false
+      },
+      {
+        "text": " flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "274d4a1f-9978-4a25-ae31-07177dafd7a5",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "economy",
+        "alias": "flight-class",
+        "meta": "@flight_class",
+        "userDefined": false
+      },
+      {
+        "text": " flight",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "686e1ff3-09aa-4511-b322-9743be6098d4",
+    "data": [
+      {
+        "text": "Book ",
+        "userDefined": false
+      },
+      {
+        "text": "economy",
+        "alias": "flight-class",
+        "meta": "@flight_class",
+        "userDefined": false
+      },
+      {
+        "text": " flight tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "aa5d2d5e-d557-4097-a7bc-88db5f40c221",
+    "data": [
+      {
+        "text": "Book a flight in ",
+        "userDefined": false
+      },
+      {
+        "text": "economy",
+        "alias": "flight-class",
+        "meta": "@flight_class",
+        "userDefined": true
+      },
+      {
+        "text": " class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ce99abd-ade9-44ba-a934-3eae67edac96",
+    "data": [
+      {
+        "text": "Non-stop",
+        "alias": "flight_type",
+        "meta": "@flight_type",
+        "userDefined": false
+      },
+      {
+        "text": " flight in ",
+        "userDefined": false
+      },
+      {
+        "text": "economy",
+        "alias": "flight-class",
+        "meta": "@flight_class",
+        "userDefined": true
+      },
+      {
+        "text": " class from ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Gorakhpur",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on April 12 2019",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "05addc4d-9266-49f8-b853-02d5b53fe1f3",
+    "data": [
+      {
+        "text": "Book a flight from ",
+        "userDefined": false
+      },
+      {
+        "text": "Hyderabad",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " to ",
+        "userDefined": false
+      },
+      {
+        "text": "Delhi",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "on November 20th 2019",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "77825bd4-90c7-48e0-88e6-971789b0a318",
+    "data": [
+      {
+        "text": "Reserve a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "next Tuesday",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "ad5bc37e-070c-48b7-9dfe-8186617f9716",
+    "data": [
+      {
+        "text": "Book a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "0c10fa20-84cb-46b7-b9df-c3e0aadd1114",
+    "data": [
+      {
+        "text": "Book a flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "November 20th,2018",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "26b0d9a8-7630-4153-bb34-d8d3ae486f8c",
+    "data": [
+      {
+        "text": "Book flight tickets",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "updated": 0
+  }
+]

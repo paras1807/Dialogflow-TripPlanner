@@ -1,0 +1,80 @@
+{
+  "id": "416aeda4-8b58-4aa5-9e14-db40db92805f",
+  "name": "booked.flight.and.book.room.same.destination.followup",
+  "auto": true,
+  "contexts": [
+    "flight_context",
+    "BookFlights-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights.followupsBookRooms",
+      "affectedContexts": [
+        {
+          "name": "BookFlights-followupsBookRooms-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "79e71b79-4768-4892-bf16-e065b07a64f8",
+          "required": false,
+          "dataType": "@room_type",
+          "name": "room_type",
+          "value": "$room_type",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e3f300e5-a6eb-4201-9ddc-11030e3c5ba3",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.date",
+          "isList": false
+        },
+        {
+          "id": "b23c7572-7416-4ef1-9062-92da573fe3f8",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.geo-city1",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Do you want to book room for $geo-city1"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,92 @@
+{
+  "id": "8a3397fd-8337-4005-a8a2-bda39c579f14",
+  "name": "flight.destination.followup",
+  "auto": true,
+  "contexts": [
+    "flight-destination-followup",
+    "flight_context"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "flight_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "06598b84-c2c3-4532-bb7d-bd3a1822a4fa",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "e5bb1536-633d-4ae8-9478-10a8954e51de",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.geo-city",
+          "isList": false
+        },
+        {
+          "id": "cba7fa2c-3a91-41ee-85b4-ede8075b0ec2",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.date",
+          "isList": false
+        },
+        {
+          "id": "370c417a-28b8-47b2-8fa2-719556268709",
+          "required": false,
+          "dataType": "@flight_class",
+          "name": "flight-class",
+          "value": "$flight-class",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.flight-class",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

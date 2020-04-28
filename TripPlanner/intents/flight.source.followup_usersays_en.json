@@ -1,0 +1,64 @@
+[
+  {
+    "id": "77be0134-5a1a-4f82-a19a-322769edcbf0",
+    "data": [
+      {
+        "text": "My source  is ",
+        "userDefined": false
+      },
+      {
+        "text": "Kerala",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "fd9f5f73-7ca8-43b1-93ce-74bc49cd219e",
+    "data": [
+      {
+        "text": "Bangalore",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5582c704-443c-4938-a2bd-8e6ca7554f6d",
+    "data": [
+      {
+        "text": "I want to fly from ",
+        "userDefined": false
+      },
+      {
+        "text": "New Delhi",
+        "alias": "geo-city",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "421f7061-4663-4d3d-8c48-cecb3fd7d94b",
+    "data": [
+      {
+        "text": "Yes",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

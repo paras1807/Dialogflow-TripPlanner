@@ -1,0 +1,30 @@
+[
+  {
+    "id": "0f4e26ed-2951-41ce-bb9b-98ec089e98d7",
+    "data": [
+      {
+        "text": "C6",
+        "alias": "selected-seat",
+        "meta": "@selected_seat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "4d6759a6-353c-4456-81d8-189839ed86a9",
+    "data": [
+      {
+        "text": "A1",
+        "alias": "selected-seat",
+        "meta": "@selected_seat",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

@@ -1,0 +1,20 @@
+[
+  {
+    "value": "non-stop",
+    "synonyms": [
+      "non-stop"
+    ]
+  },
+  {
+    "value": "multiple-stops",
+    "synonyms": [
+      "multiple-stops"
+    ]
+  },
+  {
+    "value": "one-stop",
+    "synonyms": [
+      "one-stop"
+    ]
+  }
+]

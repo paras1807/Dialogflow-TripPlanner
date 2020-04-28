@@ -1,0 +1,100 @@
+[
+  {
+    "id": "dbd9dced-f1f4-4393-aab1-4b0e1dfed808",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "queen",
+        "alias": "room_type",
+        "meta": "@room_type",
+        "userDefined": false
+      },
+      {
+        "text": " sized room in ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "15e7e60e-a6eb-4a9a-a3fd-265f02bf7c35",
+    "data": [
+      {
+        "text": "Book a room in ",
+        "userDefined": false
+      },
+      {
+        "text": "New York",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "09ed7ea5-54a0-41ef-ab59-5f6a0501688a",
+    "data": [
+      {
+        "text": "Book a ",
+        "userDefined": false
+      },
+      {
+        "text": "king",
+        "alias": "room_type",
+        "meta": "@room_type",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Chennai",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date-time",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "a32774b4-89fc-4648-9186-c7e308d7d250",
+    "data": [
+      {
+        "text": "Delhi",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

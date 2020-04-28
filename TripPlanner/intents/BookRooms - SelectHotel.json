@@ -1,0 +1,80 @@
+{
+  "id": "4a700415-51f1-4040-b1ea-b9c7abac38eb",
+  "name": "BookRooms - SelectHotel",
+  "auto": true,
+  "contexts": [
+    "BookRooms-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookRooms.BookRooms-custom",
+      "affectedContexts": [
+        {
+          "name": "BookFlights-followup",
+          "parameters": {},
+          "lifespan": 0
+        }
+      ],
+      "parameters": [
+        {
+          "id": "4178ef58-5eeb-4b76-91f9-da8dc07b4406",
+          "required": true,
+          "dataType": "@hotel_name",
+          "name": "hotel-name",
+          "value": "$hotel-name",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#book_rooms-followup.geo-city1",
+          "isList": false
+        },
+        {
+          "id": "29946a80-2f27-4cf8-aa9e-979a17cb1ca6",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#bookrooms-followup.geo-city1",
+          "isList": false
+        },
+        {
+          "id": "9c82b625-566d-4c28-8d31-aeb6e7ee0e32",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#bookrooms-followup.date",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

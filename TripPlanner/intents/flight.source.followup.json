@@ -1,0 +1,80 @@
+{
+  "id": "d29d726f-b1b9-46e1-8d53-6a1704723fab",
+  "name": "flight.source.followup",
+  "auto": true,
+  "contexts": [
+    "flight_context",
+    "flight-source-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [
+        {
+          "name": "flight_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "6daf8423-5369-4b49-b4d6-82733a862fca",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#seat_selection_context.geo-city",
+          "isList": false
+        },
+        {
+          "id": "27253fe7-ac6d-48b4-8374-6baf2e1d525d",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#seat_selection_context.date",
+          "isList": false
+        },
+        {
+          "id": "06904bb5-889a-4820-8081-c62939aa4254",
+          "required": false,
+          "dataType": "@flight_class",
+          "name": "flight-class",
+          "value": "$flight-class",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#seat_selection_context.flight-class",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": "Please select seat"
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

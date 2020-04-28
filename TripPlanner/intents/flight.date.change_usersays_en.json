@@ -1,0 +1,44 @@
+[
+  {
+    "id": "933ad63e-37f0-469a-b67b-9d18f5398db9",
+    "data": [
+      {
+        "text": "I want to change my flight date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "30cf2792-28d2-4342-8f36-30cdba1c5694",
+    "data": [
+      {
+        "text": "Change Date of flight to ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d7e0b717-0367-4263-ae4d-0d6c15da6c6e",
+    "data": [
+      {
+        "text": "Change Date",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

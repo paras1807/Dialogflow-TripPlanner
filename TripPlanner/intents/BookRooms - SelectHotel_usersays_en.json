@@ -1,0 +1,54 @@
+[
+  {
+    "id": "acea43d3-f4ca-410b-b546-75cbfbb1bd89",
+    "data": [
+      {
+        "text": "Book a king in ",
+        "userDefined": false
+      },
+      {
+        "text": "Chennai",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      },
+      {
+        "text": " for ",
+        "userDefined": false
+      },
+      {
+        "text": "tomorrow",
+        "alias": "date",
+        "meta": "@sys.date",
+        "userDefined": false
+      },
+      {
+        "text": " in ",
+        "userDefined": false
+      },
+      {
+        "text": "Hotel1",
+        "alias": "hotel-name",
+        "meta": "@hotel_name",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "9b5c58f4-ada3-4293-a5a1-e4b3ca61e06f",
+    "data": [
+      {
+        "text": "Hotel1",
+        "alias": "hotel-name",
+        "meta": "@hotel_name",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

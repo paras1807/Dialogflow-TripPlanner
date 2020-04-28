@@ -1,0 +1,44 @@
+[
+  {
+    "value": "master suite",
+    "synonyms": [
+      "deluxe"
+    ]
+  },
+  {
+    "value": "mini suite",
+    "synonyms": [
+      "junior"
+    ]
+  },
+  {
+    "value": "single",
+    "synonyms": [
+      "single"
+    ]
+  },
+  {
+    "value": "twin",
+    "synonyms": [
+      "twin"
+    ]
+  },
+  {
+    "value": "double",
+    "synonyms": [
+      "double"
+    ]
+  },
+  {
+    "value": "queen",
+    "synonyms": [
+      "queen"
+    ]
+  },
+  {
+    "value": "king",
+    "synonyms": [
+      "king"
+    ]
+  }
+]

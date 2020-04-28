@@ -1,0 +1,56 @@
+[
+  {
+    "id": "45906aa8-0443-4354-9b83-c7aee6d3cdf3",
+    "data": [
+      {
+        "text": "I want ",
+        "userDefined": false
+      },
+      {
+        "text": "Bussiness",
+        "alias": "flight-class",
+        "meta": "@flight_class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "dd0d1c97-6177-4d05-8cc6-6b741e965b0f",
+    "data": [
+      {
+        "text": "Book flight for ",
+        "userDefined": false
+      },
+      {
+        "text": "economy",
+        "alias": "flight-class",
+        "meta": "@flight_class",
+        "userDefined": false
+      },
+      {
+        "text": " class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "b878cf98-5452-4b83-9b34-7ff3b431e417",
+    "data": [
+      {
+        "text": "Economy",
+        "alias": "flight-class",
+        "meta": "@flight_class",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

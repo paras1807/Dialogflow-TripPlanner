@@ -1,0 +1,62 @@
+[
+  {
+    "id": "e92ee88a-29f8-4435-9621-ba8f9957d796",
+    "data": [
+      {
+        "text": "let\u0027s do the payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "5ecb1ad9-a2e0-4d05-ac00-9a477baed867",
+    "data": [
+      {
+        "text": "How much do I have to pay?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "c67c20b5-2feb-4e2b-ad91-da3593e1c581",
+    "data": [
+      {
+        "text": "Pay",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "075f624d-2f27-4f7c-8295-dc48c65095ab",
+    "data": [
+      {
+        "text": "Payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "46fae380-5bce-4c73-8ff9-c224555ef762",
+    "data": [
+      {
+        "text": "Make Payment",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

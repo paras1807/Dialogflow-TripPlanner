@@ -1,0 +1,70 @@
+[
+  {
+    "id": "090ff624-1229-43b0-86d5-5e5e81bcbab1",
+    "data": [
+      {
+        "text": "Let\u0027s fly to ",
+        "userDefined": false
+      },
+      {
+        "text": "Chennai",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "18db68c7-b52b-49cf-b295-ad47c908e5fc",
+    "data": [
+      {
+        "text": "My destination is ",
+        "userDefined": false
+      },
+      {
+        "text": "Bangalore",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d3a7fb1c-7316-40b6-bf90-42198bf61ece",
+    "data": [
+      {
+        "text": "Delhi",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "00db4a9a-c73f-4cec-bb03-e6d67b78f9ad",
+    "data": [
+      {
+        "text": "I want to go to ",
+        "userDefined": false
+      },
+      {
+        "text": "Mumbai",
+        "alias": "geo-city1",
+        "meta": "@sys.geo-city",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

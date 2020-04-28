@@ -1,0 +1,46 @@
+{
+  "id": "542d2a21-9696-4876-8b40-66efd72bc534",
+  "name": "BookFlights - SeatSelection - no",
+  "auto": true,
+  "contexts": [
+    "flight_context",
+    "flight-seat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights.BookFlights-no",
+      "affectedContexts": [
+        {
+          "name": "MakePayment-followup",
+          "parameters": {},
+          "lifespan": 1
+        },
+        {
+          "name": "flight_context",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

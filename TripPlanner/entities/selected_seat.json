@@ -1,0 +1,9 @@
+{
+  "id": "f2384a20-ec6d-40e4-892d-6ef496572c17",
+  "name": "selected_seat",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": true,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

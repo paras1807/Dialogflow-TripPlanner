@@ -1,0 +1,94 @@
+{
+  "id": "7fa1d59e-b393-433e-a59a-2324319cbcae",
+  "name": "BookFlights - SeatSelection- yes",
+  "auto": true,
+  "contexts": [
+    "flight_context",
+    "flight-seat-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights.BookFlights-yes",
+      "affectedContexts": [
+        {
+          "name": "BookFlights-SeatSelection-yes-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
+      "parameters": [
+        {
+          "id": "cdfad259-84e1-43ff-b4d3-6274b530711c",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.geo-city",
+          "isList": false
+        },
+        {
+          "id": "8b9aeafc-1185-4fb9-a300-0f39d5f70d2b",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.geo-city1",
+          "isList": false
+        },
+        {
+          "id": "93d89254-60fc-4d9d-bdb7-a42716b3f607",
+          "required": true,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.date",
+          "isList": false
+        },
+        {
+          "id": "6ad9bf86-f3b0-4035-acce-18dcef48dde2",
+          "required": true,
+          "dataType": "@flight_class",
+          "name": "flight-class",
+          "value": "$flight-class",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.flight-class",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,89 @@
+{
+  "id": "fd5ae609-dba6-4ee0-a8f6-fd624f118a87",
+  "name": "booked.flight.and.book.room.same.destination.followup - no - changeDestination",
+  "auto": true,
+  "contexts": [
+    "BookFlights-followupsBookRooms-no-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights.followupsBookRooms.BookFlights-followupsBookRooms-no.BookFlights-followupsBookRooms-no-custom",
+      "affectedContexts": [
+        {
+          "name": "BookRooms-followup",
+          "parameters": {},
+          "lifespan": 5
+        }
+      ],
+      "parameters": [
+        {
+          "id": "600ba176-e936-4d9d-ac43-a49f1d71a53a",
+          "required": true,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "which city do you need this booking for?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "b425eedf-749b-481e-bdf5-a974e427c659",
+          "required": false,
+          "dataType": "@room_type",
+          "name": "room_type",
+          "value": "$room_type",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "f30ee7d5-4db8-45eb-af91-757cfdd75405",
+          "required": true,
+          "dataType": "@sys.date-time",
+          "name": "date",
+          "value": "$date",
+          "prompts": [
+            {
+              "lang": "en",
+              "value": "what date do you want room for?"
+            }
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

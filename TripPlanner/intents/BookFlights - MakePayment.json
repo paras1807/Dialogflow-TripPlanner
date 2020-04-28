@@ -1,0 +1,138 @@
+{
+  "id": "7a614eff-3131-4a3d-a7cb-9aa0939b6ef5",
+  "name": "BookFlights - MakePayment",
+  "auto": true,
+  "contexts": [
+    "flight_context",
+    "MakePayment-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "BookFlights-SeatSelection-yes.BookFlights-SeatSelection-yes-custom.BookFlights-SeatSelection-yes-SelectedSeat-custom",
+      "affectedContexts": [
+        {
+          "name": "flight_context",
+          "parameters": {},
+          "lifespan": 5
+        },
+        {
+          "name": "BookFlights-followup",
+          "parameters": {},
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "id": "1cafb0c0-5564-4054-9c12-87d81f2eac16",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city",
+          "value": "$geo-city",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.geo-city",
+          "isList": false
+        },
+        {
+          "id": "c3d6cd99-8f79-4b5b-9ebb-5e70cf416240",
+          "required": false,
+          "dataType": "@sys.geo-city",
+          "name": "geo-city1",
+          "value": "$geo-city1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.geo-city1",
+          "isList": false
+        },
+        {
+          "id": "806589ba-3ed9-4d72-8cd4-a616c72f7a2e",
+          "required": false,
+          "dataType": "@sys.date",
+          "name": "date",
+          "value": "$date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.date",
+          "isList": false
+        },
+        {
+          "id": "0cf7d541-ecec-4ad2-a704-06894c067b34",
+          "required": false,
+          "dataType": "@flight_class",
+          "name": "flight-class",
+          "value": "$flight-class",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.flight-class",
+          "isList": false
+        },
+        {
+          "id": "de0c04ea-fc26-453d-8bcf-44025e7e29a1",
+          "required": false,
+          "dataType": "@selected_seat",
+          "name": "selected-seat",
+          "value": "$selected-seat",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#flight_context.selected-seat",
+          "isList": false
+        },
+        {
+          "id": "3c3d939a-8166-434a-93ba-54840c4208b8",
+          "required": false,
+          "dataType": "@sys.date-time",
+          "name": "booking-date",
+          "value": "$booking-date",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#MakePayment-followup.booking-date",
+          "isList": false
+        },
+        {
+          "id": "3ee7a834-5b3b-4d5f-a515-29b023eb3c93",
+          "required": false,
+          "dataType": "@sys.number",
+          "name": "wait-counter",
+          "value": "$wait-counter",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "defaultValue": "#MakePayment-followup.wait-counter",
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "lang": "en",
+          "condition": "",
+          "speech": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,23 @@
+[
+  {
+    "value": "Economy",
+    "synonyms": [
+      "Economy",
+      "economy"
+    ]
+  },
+  {
+    "value": "Bussiness",
+    "synonyms": [
+      "Bussiness",
+      "bussiness"
+    ]
+  },
+  {
+    "value": "First Class",
+    "synonyms": [
+      "First Class",
+      "first class"
+    ]
+  }
+]
