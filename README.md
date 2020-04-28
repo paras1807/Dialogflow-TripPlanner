@@ -9,4 +9,6 @@ For this to work
 
 => Now all the request from dialog flow will be redirected to your local server.
 
+![Trip Planner Use Case](https://github.com/paras1807/Dialogflow-TripPlanner/blob/master/TripPlanner.jpg)
+
 You can import the zip file tripplanner in dialogflow.
